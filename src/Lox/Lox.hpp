@@ -1,5 +1,6 @@
 #include <iostream>
 #include <bits/stdc++.h>
+using namespace std;
 
 class Lox {
     private:
@@ -7,6 +8,8 @@ class Lox {
     public:
         bool exit;
         Lox();
-        std::string Run(std::string);
+        void RunLine();
+        bool RunFile(string);
+        string Run(string);
 
 };
