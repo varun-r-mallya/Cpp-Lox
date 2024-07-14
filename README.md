@@ -1,2 +1,4 @@
-# Cpp-Lox
-My implementation of the compiler for the Lox language (WIP)
+# Cpp-Lox (Work In Progress)
+## My implementation of the interpreter for the Lox language (WIP)
+
+
