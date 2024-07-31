@@ -3,4 +3,7 @@ mkdir build;
 cd build;
 cmake ..;
 make;
-./cpp-lox;
+./cpp-lox
+
+
+
