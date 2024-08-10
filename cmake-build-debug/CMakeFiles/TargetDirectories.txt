@@ -1,0 +1,3 @@
+/home/vrmxeon/Desktop/Cpp-Lox/cmake-build-debug/CMakeFiles/cpp-lox.dir
+/home/vrmxeon/Desktop/Cpp-Lox/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vrmxeon/Desktop/Cpp-Lox/cmake-build-debug/CMakeFiles/rebuild_cache.dir
