@@ -1,4 +1,5 @@
 #pragma once
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,8 +7,7 @@
 
 #define Object std::string
 
-enum TokenType
-{
+enum TokenType {
     // Single-character tokens.
     LEFT_PAREN,
     RIGHT_PAREN,
@@ -57,8 +57,7 @@ enum TokenType
     EndOfFile // TODO: Alias for EOF, find ways to rename this to EOF by using #undef
 };
 
-class Token
-{
+class Token {
 public:
     TokenType type;
     std::string lexeme;
@@ -66,11 +65,11 @@ public:
     int line;
 
     Token(TokenType type, std::string lexeme, Object literal, int line);
-    std::string toString();
+
+    [[nodiscard]] std::string toString() const;
 };
 
-class Scanner
-{
+class Scanner {
 private:
     std::string source;
     std::vector<Token> tokens;
@@ -84,8 +83,12 @@ private:
     char peek();      // if it is at the end, then return \0 else returns the current character without consuming it
 
 public:
-    Scanner(std::string);
+    explicit Scanner(std::string);
+
     std::vector<Token> scanTokens();
+
     void scanToken();
-    void addToken(TokenType type, Object literal = ""); // TODO: replace this Object literal with a NULL like empty object
+
+    void
+    addToken(TokenType type, Object literal = ""); // TODO: replace this Object literal with a NULL like empty object
 };

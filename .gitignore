@@ -1,6 +1,7 @@
 build/
 cpp-lox
 .vscode/
+cmake-build-debug/
 # Prerequisites
 *.d
 

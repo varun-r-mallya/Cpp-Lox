@@ -1,5 +1,0 @@
-# ninja log v6
-2	3852	1723311565076723412	CMakeFiles/cpp-lox.dir/src/main.cpp.o	f1fb0a0424329be0
-1	4032	1723311565073390078	CMakeFiles/cpp-lox.dir/src/Lox/Lox.cpp.o	5a6866f502dd1c95
-1	4048	1723311565076723412	CMakeFiles/cpp-lox.dir/src/Lox/Scanner.cpp.o	9737d1f0a01fa0f6
-4048	4164	1723311569123390155	cpp-lox	7b351da288b3e67d
